@@ -186,7 +186,7 @@ This project is currently unlicensed. Please check for a `LICENSE` file in the r
 If you encounter any issues or have questions, please use the GitHub Issues page for this project.
 
 *   **GitHub Issues:** [https://github.com/bilbisli/ai_readme_generator/issues](https://github.com/bilbisli/ai_readme_generator/issues)
-*   **Email:** [bilbisli@gmail.com](bilbisli@gmail.com)
+*   **Email:** [bilbisli@gmail.com](mailto:bilbisli@gmail.com)
 
 ## Acknowledgments
 *   Powered by [Google Gemini API](https://ai.google.dev/gemini)
