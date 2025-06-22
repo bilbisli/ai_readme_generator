@@ -68,7 +68,7 @@ auto-readme-with-gemini/
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/TODO_YOUR_ORG/auto-readme-with-gemini.git
+    git clone https://github.com/bilbisli/ai_readme_generator.git
     cd auto-readme-with-gemini
     ```
 
@@ -101,7 +101,8 @@ auto-readme-with-gemini/
 To generate a `README.md` for the current project:
 
 ```bash
-python main.py
+python main.py <target_project_directory>
+
 # TODO: Add specific CLI arguments if any are inferred or expected,
 # e.g., for specifying target directory, output file, or template.
 # Example: python main.py --target-dir ../my_project --output-file ../my_project/README.md
@@ -114,7 +115,7 @@ The primary configuration is done via environment variables loaded from the `.en
 
 *   `GEMINI_API_KEY`: (Required) Your personal API key for accessing the Google Gemini API. Without this, the application cannot generate content.
 
-```ini
+```.env
 # .env example
 GEMINI_API_KEY="your-secret-gemini-api-key"
 # TODO: Add other potential environment variables for configuration,
@@ -184,8 +185,8 @@ This project is currently unlicensed. Please check for a `LICENSE` file in the r
 ## Support & Contact
 If you encounter any issues or have questions, please use the GitHub Issues page for this project.
 
-*   **GitHub Issues:** [https://github.com/TODO_YOUR_ORG/auto-readme-with-gemini/issues](https://github.com/TODO_YOUR_ORG/auto-readme-with-gemini/issues)
-*   **Email:** [TODO@example.com](mailto:TODO@example.com)
+*   **GitHub Issues:** [https://github.com/bilbisli/ai_readme_generator/issues](https://github.com/TODO_YOUR_ORG/auto-readme-with-gemini/issues)
+*   **Email:** [bilbisli@gmail.com](mailto:TODO@example.com)
 
 ## Acknowledgments
 *   Powered by [Google Gemini API](https://ai.google.dev/gemini)
