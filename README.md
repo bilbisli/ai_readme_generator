@@ -185,7 +185,7 @@ This project is currently unlicensed. Please check for a `LICENSE` file in the r
 ## Support & Contact
 If you encounter any issues or have questions, please use the GitHub Issues page for this project.
 
-*   **GitHub Issues:** [https://github.com/bilbisli/ai_readme_generator/issues](https://github.com/TODO_YOUR_ORG/auto-readme-with-gemini/issues)
+*   **GitHub Issues:** [https://github.com/bilbisli/ai_readme_generator/issues](https://github.com/bilbisli/ai_readme_generator/issues)
 *   **Email:** [bilbisli@gmail.com](mailto:TODO@example.com)
 
 ## Acknowledgments
