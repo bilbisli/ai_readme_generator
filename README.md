@@ -1,4 +1,4 @@
-# auto-readme-with-gemini
+# ai_readme_generator
 Automated README generation powered by Google Gemini, designed to intelligently document your projects.
 
 [![Python Version](https://img.shields.io/badge/Python-3.x-blue.svg)](https://www.python.org/)
@@ -25,7 +25,7 @@ Automated README generation powered by Google Gemini, designed to intelligently 
 *   [Acknowledgments](#acknowledgments)
 
 ## Overview
-`auto-readme-with-gemini` is a command-line tool that automates the creation of comprehensive `README.md` files for software projects. It achieves this by first scanning the project's directory structure and contents to gather context, and then leveraging the power of Google's Gemini large language model to intelligently generate a well-structured and informative README. The goal is to significantly reduce the manual effort involved in documentation, ensuring consistency and accuracy.
+`ai_readme_generator` is a command-line tool that automates the creation of comprehensive `README.md` files for software projects. It achieves this by first scanning the project's directory structure and contents to gather context, and then leveraging the power of Google's Gemini large language model to intelligently generate a well-structured and informative README. The goal is to significantly reduce the manual effort involved in documentation, ensuring consistency and accuracy.
 
 **Key Features:**
 *   **Automated Project Analysis:** Scans your project files and directories to understand its layout and contents.
@@ -37,7 +37,7 @@ Automated README generation powered by Google Gemini, designed to intelligently 
 
 ### Directory Tree
 ```text
-auto-readme-with-gemini/
+ai_readme_generator/
 │   ├─ .env                # Environment variables (e.g., API keys)
 │   ├─ .env.example        # Example file for .env configuration
 │   ├─ .idea/              # IDE-specific configuration files (e.g., PyCharm)
@@ -69,7 +69,7 @@ auto-readme-with-gemini/
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/bilbisli/ai_readme_generator.git
-    cd auto-readme-with-gemini
+    cd ai_readme_generator
     ```
 
 2.  **Create and activate a virtual environment (recommended):**
@@ -101,7 +101,7 @@ auto-readme-with-gemini/
 To generate a `README.md` for the current project:
 
 ```bash
-python main.py <target_project_directory>
+python .\src\generate_readme.py <target_project_directory>
 
 # TODO: Add specific CLI arguments if any are inferred or expected,
 # e.g., for specifying target directory, output file, or template.
@@ -172,7 +172,7 @@ This section typically lists future features. As no `TODO`/`FIXME` comments were
 *   **Testing:** Implement a comprehensive test suite.
 
 ## Contributing
-We welcome contributions to `auto-readme-with-gemini`! If you're interested in improving this tool, please consider:
+We welcome contributions to `ai_readme_generator`! If you're interested in improving this tool, please consider:
 1.  **Reporting Bugs:** If you find any issues, please open an issue on the project's GitHub repository.
 2.  **Suggesting Features:** Have an idea for a new feature? Open an issue to discuss it.
 3.  **Submitting Pull Requests:** Feel free to fork the repository, make your changes, and submit a pull request. Please ensure your code adheres to standard Python style guidelines and includes relevant tests if applicable.
